@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/i"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/different_types_of_ipr"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-42dp" />
+
+    <ImageView
+        android:id="@+id/im"
+        android:layout_width="467dp"
+        android:layout_height="517dp"
+        app:srcCompat="@drawable/cqueue_output2"
+        tools:layout_editor_absoluteX="-19dp"
+        tools:layout_editor_absoluteY="334dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
